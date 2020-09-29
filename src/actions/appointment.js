@@ -1,4 +1,4 @@
-import { CREATE_APPOINTMENT, EDIT_APPOINTMENT, DELETE_APPOINTMENT } from 'actionType';
+import { CREATE_APPOINTMENT, EDIT_APPOINTMENT, DELETE_APPOINTMENT } from './actionType';
 
 export const createAppointment = (appointment) => ({
     type: CREATE_APPOINTMENT,
